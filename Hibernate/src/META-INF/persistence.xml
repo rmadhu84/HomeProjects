@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Hibernate">
+		<class>com.spring.sales.models.Customer</class>
+		<class>com.spring.sales.models.Employee</class>
+		<class>com.spring.sales.models.Office</class>
+		<class>com.spring.sales.models.Orderdetail</class>
+		<class>com.spring.sales.models.OrderdetailPK</class>
+		<class>com.spring.sales.models.Order</class>
+		<class>com.spring.sales.models.Payment</class>
+		<class>com.spring.sales.models.PaymentPK</class>
+		<class>com.spring.sales.models.Productline</class>
+		<class>com.spring.sales.models.Product</class>
+	</persistence-unit>
+</persistence>
